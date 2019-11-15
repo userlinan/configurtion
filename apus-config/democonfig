@@ -1,0 +1,13 @@
+spring.application.name=apus-demo-service
+#\u670d\u52a1\u7aef\u53e3
+server.port=8082
+#\u6570\u636e\u5e93\u914d\u7f6e
+#mslife.datasource.type=com.alibaba.druid.pool.DruidDataSource
+mslife.datasource.type=com.zaxxer.hikari.HikariDataSource
+mslife.datasource.driver-class-name=org.postgresql.Driver
+#mslife.datasource.url=jdbc:mysql://10.0.2.39:3306/app_trans2lis?characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useUnicode=true&useSSL=false
+#mslife.datasource.username=root
+#mslife.datasource.password=MStest1234.
+mslife.datasource.url=jdbc:postgresql://10.0.11.125:30026/app_trans2lis?characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useUnicode=true&useSSL=false
+mslife.datasource.username=postgres
+mslife.datasource.password=root1234
